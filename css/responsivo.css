@@ -1,0 +1,152 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    .qualidade::after {
+        right: 66px;
+    }
+    .qualidade-lista li {
+        padding: 0 10px;
+    }
+    /*footer*/
+    .footer-redes ul li a {
+        border: 3px solid #fec63e;
+        display: block;
+        padding: 6px;
+    }
+    .footer-redes ul li a img {
+        width: 26px;
+        height: 26px;
+    }
+    /*Produtos*/
+    .produtos-item h2 {
+        top: -150px;
+        /*a sombra do h2 ainda fica no seu local de origem.*/
+        margin-bottom: -56px;
+    }
+    .produto-item img {
+        width: 100%;
+    }
+    .produto-icone {
+        padding: 44px 0;
+    }
+    .produto-icone-retro, .produto-icone-esporte {
+        padding: 34px 0;
+    }
+    .produto-info p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 30px;
+        height: 120px;
+    }
+    .produto-info ul li {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        float: left;
+        width: 181px;
+        height: 49px;
+        padding-top: 16px;
+    }
+}
+
+@media only screen and (max-width: 787px) {
+    .header {
+        position: relative;
+        padding-bottom: 0;
+    }
+    .header img {
+        margin: 0 auto 10px auto;
+    }
+    .header_menu {
+        text-align: center;
+    }
+    .header_menu ul li {
+        margin: 5px;
+    }
+    .header_menu ul li a {
+        border: 4px solid #000;
+        width: 136px;
+        display: block;
+        float: left;
+    }
+    .header_menu ul li a:hover {
+        border-color: #fff;
+    }
+    .header_menu ul li a.menu-ativo {
+        border-color: #fff;
+    }
+    .introducao {
+        margin-top: 0px;
+        padding-top: 40px;
+    }
+    .introducao h1 {
+        font-size: 36px;
+    }
+    /*introducao interna*/
+    .introducao-interna {
+        margin-top: 0px;
+    }
+    .call-to-action {
+        padding-top: 10px;
+    }
+    .qualidade::after {
+        display: none;
+    }
+    /*sobre*/
+    .missao-sobre p {
+        padding-right: 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .missao-sobre ul li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .foto-equipe {
+        padding-top: 20px;
+    }
+    /*produtos mobile*/
+    .produto-item h2 {
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: .1em;
+        font-weight: bold;
+        position: relative;
+        top: -100px;
+        text-align: center;
+        /*a sombra do h2 ainda fica no seu local de origem.*/
+        margin-bottom: -68px;
+    }
+    .produto-item img {
+        width: 100%;
+    }
+    .produto-icone {
+        padding: 44px 0;
+    }
+    .produto-icone-retro, .produto-icone-esporte {
+        padding: 34px 0;
+    }
+    .produto-info p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 30px;
+        height: auto;
+    }
+    .produto-info ul li {
+        font-size: 14px;
+        line-height: 20px;
+        width: 149px;
+        height: 49px;
+    }
+    .form {
+        padding-right: 0px;
+    }
+    .orcamento-dados ul {
+        padding-right: 0px;
+    }
+    /*contatos*/
+    .contato-form {
+        padding-right: 0px;
+        margin-bottom: 40px;
+    }
+}

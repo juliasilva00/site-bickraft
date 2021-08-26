@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
+    <title>Bickraft | Bicicletas Personalizadas</title>
+    <link rel="shortcut icon" href="favicon.png">
     <link rel="stylesheet" href="css/style.css">
-    <title>Bickraft</title>
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -22,10 +21,10 @@
 
             <nav class="header_menu grid-12">
                 <ul>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Produtos</a></li>
-                    <li><a href="">Portifólio</a></li>
-                    <li><a href="">Contatos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="portifolio.html">Portifólio</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
 
                 </ul>
             </nav>
@@ -36,21 +35,21 @@
 
     <section class="introducao">
         <div class="container">
-            <h1>Bicicletas Feitas a Mão</h1>
+            <h1 data-anime="400" class="fadeInDown">Bicicletas Feitas a Mão</h1>
 
-            <blockquote class="quote-externo">
+            <blockquote class="quote-externo fadeInDown" data-anime="800">
                 <p>"não tenha nada em sua casa que você
                     não considere útil ou acredita ser bonito"</p>
                 <cite>WILLIAM MORRIS</cite>
             </blockquote>
 
-            <a href="produtos.html" class="btn">Orçamento</a>
+            <a data-anime="1200" href="produtos.html" class="btn">Orçamento</a>
         </div>
 
     </section>
 
 
-    <section class=" produtos container">
+    <section class=" produtos container fadeInDown" data-anime="1600">
         <h2 class="subtitulo"> Produtos</h2>
         <ul class="produtos-lista">
             <li class="grid-1-3">
@@ -60,35 +59,37 @@
                 <h3>Passeio</h3>
                 <p>Ainda assim, existem dúvidas a repeito de como a necessidade de renovação.</p>
             </li>
+        </ul>
 
 
-            <ul class="produtos-lista">
-                <li class="grid-1-3">
-                    <div class="produtos-icone">
-                        <img src="img/produtos/passeio.svg" alt="Bickcraft Passeio">
-                    </div>
-                    <h3>Passeio</h3>
-                    <p>Ainda assim, existem dúvidas a repeito de como a necessidade de renovação.</p>
-                </li>
-
-
-                <ul class="produtos-lista">
-                    <li class="grid-1-3">
-                        <div class="produtos-icone">
-                            <img src="img/produtos/passeio.svg" alt="Bickcraft Passeio">
-                        </div>
-                        <h3>Passeio</h3>
-                        <p>Ainda assim, existem dúvidas a repeito de como a necessidade de renovação.</p>
-                    </li>
-
-                </ul>
-
-
-                <div class="call-to-action">
-                    <p>clique aqui e veja mais detalhes dos produtos</p>
-                    <a href="produtos.html" class="btn btn-preto">Produtos</a>
-
+        <ul class="produtos-lista">
+            <li class="grid-1-3">
+                <div class="produtos-icone">
+                    <img src="img/produtos/passeio.svg" alt="Bickcraft Passeio">
                 </div>
+                <h3>Passeio</h3>
+                <p>Ainda assim, existem dúvidas a repeito de como a necessidade de renovação.</p>
+            </li>
+        </ul>
+
+
+        <ul class="produtos-lista">
+            <li class="grid-1-3">
+                <div class="produtos-icone">
+                    <img src="img/produtos/passeio.svg" alt="Bickcraft Passeio">
+                </div>
+                <h3>Passeio</h3>
+                <p>Ainda assim, existem dúvidas a repeito de como a necessidade de renovação.</p>
+            </li>
+
+        </ul>
+
+
+        <div class="call-to-action">
+            <p>clique aqui e veja mais detalhes dos produtos</p>
+            <a href="produtos.html" class="btn btn-preto">Produtos</a>
+
+        </div>
 
     </section>
     <!--Fecha produtos-->
@@ -179,12 +180,12 @@
                     <h3>Redes Sociais</h3>
                     <ul>
                         <li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg"
-                                    alt=""></a></li>
+                                    alt="Facebook Bickcraft"></a></li>
                         <li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg"
-                                    alt=""></a>
+                                    alt="Instagram Bikcraft"></a>
                         </li>
                         <li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg"
-                                    alt=""></a></li>
+                                    alt="Twitter Bickcraft"></a></li>
                     </ul>
 
                 </div>
@@ -198,6 +199,12 @@
         </div>
 
     </footer>
+
+    <script src="js/simple-anime.js"></script>
+    <script src="js/script.js"></script>
+
+
+
 
 
 

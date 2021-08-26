@@ -6,3 +6,39 @@
 .missao-sobre {
     padding-top: 60px;
 }
+
+.missao-sobre p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: .1em;
+    padding-right: 40px;
+}
+
+.missao-sobre ul li {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.foto-equipe {
+    padding-top: 20px;
+}
+
+.subtitulo-interno {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.subtitulo-interno::after {
+    /*por padrao as pseudo-classes after e before sao block.*/
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: rgb(0, 0, 0);
+    margin: 8px;
+}
